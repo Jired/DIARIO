@@ -6,10 +6,10 @@
     border-width: 4px;
     border-color: rgb(237, 237, 237);
     border-radius: 10px;
-    margin: 10px 20px 10px 20px;
+    margin: 10px 20px 60px 20px;
     float: left;
     width: 29%;
-   
+   display: block;
 }
 .view h1{
     text-align: center;
@@ -44,6 +44,7 @@ td{
     margin: 10px;
     width: 90%;
     position: relative;
+
 }
 .timeline-line {
     background-color: rgb(0, 0, 0);
@@ -82,6 +83,18 @@ td{
 .timeline-point:nth-child(8) {
     left: 86%;
 }
+.timeline-div{
+    background-color: rgb(237, 237, 237);
+    margin: 10px;
+    width: 90%;
+    position: relative;
+    margin: 10px 10px 20px 10px;
+}
+.mapa{
+    width: 100%;
+    display: block;
+    margin: 0;
+}
 #bottomLt{
     background-color: rgb(237, 237, 237);
     border-style: solid;
@@ -89,11 +102,59 @@ td{
     border-color: rgb(237, 237, 237);
     margin: 10px 30px 10px 30px;
 
-}#bottomL{
+}
+#bottomL{
     background-color: rgb(237, 237, 237);
     border-style: solid;
     border-width: 4px;
     border-color: rgb(237, 237, 237);
     margin: 10px 30px 10px 30px;
 
+}
+.entrada{
+    display: block;
+    clear: both;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.diario{
+    background-color: #d6e1bf;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 4px;
+    border-color: #d6e1bf;
+    border-radius: 10px;
+    margin: 10px 10px 40px 10px;
+    width: 29%;
+    display: block;
+}
+
+.foto{
+    background-color: #d6e1bf;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 4px;
+    border-color: #d6e1bf;
+    border-radius: 10px;
+    margin: 10px 10px 40px 10px;
+
+    width: 29%;
+    display: block;
+}
+
+.foto h2{
+    text-align: center;
+    margin: 5px;
+}
+
+.diario h2{
+    text-align: center;
+    margin: 5px;
+}
+
+.config h1{
+    margin: 30px;
+    margin-top: 160px;
+    
 }

@@ -153,8 +153,43 @@ td{
     margin: 5px;
 }
 
+.animo{
+    background-color: #d6e1bf;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 4px;
+    border-color: #d6e1bf;
+    border-radius: 10px;
+    margin: 10px 10px 40px 10px;
+    width: 29%;
+    display: block;
+}
+
+.nota{
+    background-color: #d6e1bf;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 4px;
+    border-color: #d6e1bf;
+    border-radius: 10px;
+    margin: 10px 10px 40px 10px;
+
+    width: 29%;
+    display: block;
+}
+
+.animo h2{
+    text-align: center;
+    margin: 5px;
+}
+
+.nota h2{
+    text-align: center;
+    margin: 5px;
+}
+
 .config h1{
     margin: 30px;
-    margin-top: 160px;
+    margin-top: 80px;
     
 }
